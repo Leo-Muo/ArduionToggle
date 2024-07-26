@@ -1,0 +1,1 @@
+light_status = False
