@@ -15,12 +15,12 @@ int current_state;
 bool status = false;
 
 
-String HOST_NAME   = "http://172.20.10.3:5001"; // CHANGE IT
+String HOST_NAME   = "http//<hostname>:5001"; // CHANGE IT
 String POST_NAME   = "/set_light"; // CHANGE IT
 String GET_PATH    = "/status";
 
-const char* ssid = "LordvirG";
-const char* password = "leoHacking";
+const char* ssid = "<wifiName>";
+const char* password = "<wifiPassword>";
 
 void scanNetwork(const char* ssid, bool& isFound) {
     Serial.println("Scan start");
